@@ -7,7 +7,7 @@ toggleBtn.addEventListener("click", () => {
 
 const text = [
     "Frontend Developer",
-    "JavaScript Learner",
+    "JavaScript Developer",
     "Django Developer",
     "Web Designer"
 ];

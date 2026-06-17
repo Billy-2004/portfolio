@@ -115,7 +115,7 @@ nav{
     .hero{
         flex-direction: column-reverse;
         text-align: center;
-        padding-top: 150px;
+        padding-top: 300px;
     }
     .hero-image img{
         width: 250px;
