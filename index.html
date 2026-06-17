@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayman Bilal | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">Ayman.</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home"><i data-lucide="home"></i>Home</a></li>
+                <li><a href="#about"><i data-lucide="user"></i>About</a></li>
+                <li><a href="#skills"><i data-lucide="brain"></i>Skills</a></li>
+                <li><a href="#projects"><i data-lucide="briefcase"></i>Projects</a></li>
+                <li><a href="#contact"><i data-lucide="mail"></i>Contact</a></li>
+            </ul>
+            <button id="theme-toggle">
+                <i data-lucide="moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-right">
+            <h1>Hi, I'm <span>Abuu Ayman Bilal</span></h1>
+
+            <h3>I'm a <span id="typing"></span></h3>
+
+            <p>
+                I build responsive websites and web applications
+                using HTML, CSS, JavaScript and Django.
+            </p>
+
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+            
+        <div class="hero-image" data-aos="fade-left">
+            <img src="images/ayman.jpeg" alt="Ayman Bilal">
+        </div>
+    </section>
+
+    <section id="about" class="about" data-aos="fade-up">
+        <h2>About Me</h2>
+
+        <p>
+            I am a passionate web developer focused on creating
+            modern, responsive and user-friendly websites.
+            Currently learning JavaScript and Django to become
+            a full-stack developer.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 data-aos="fade-up">Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="card" data-aos="zoom-in">
+                <i data-lucide="file-code"></i>
+                <h3>HTML5</h3>
+            </div>
+
+            <div class="card" data-aos="zoom-in">
+                <i data-lucide="palette"></i>
+                <h3>CSS3</h3>
+            </div>
+
+            <div class="card" data-aos="zoom-in">
+                <i data-lucide="code"></i>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="card" data-aos="zoom-in">
+                <i data-lucide="database"></i>
+                <h3>Django</h3>
+            </div>
+
+            <div class="card" data-aos="zoom-in">
+                <i data-lucide="git-branch"></i>
+                <h3>Git</h3>
+            </div>
+
+            <div class="card" data-aos="zoom-in">
+                <i data-lucide="monitor-smartphone"></i>
+                <h3>Responsive Design</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+
+        <h2 data-aos="fade-up">Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card" data-aos="fade-up">
+                <h3>Student Management System</h3>
+
+                <p>
+                    A system for managing student records,
+                    attendance and performance.
+                </p>
+
+                <a href="#">Live Demo</a>
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+                <h3>Business Landing Page</h3>
+
+                <p>
+                    Modern responsive landing page with
+                    animations and call-to-action sections.
+                </p>
+
+                <a href="#">Live Demo</a>
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+                <h3>Inventory Management System</h3>
+
+                <p>
+                    Django-based inventory management
+                    application.
+                </p>
+
+                <a href="#">Live Demo</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact" data-aos="fade-up">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: bilalinganyi4@gmail.com</p>
+        <p>Phone: +254 701 130 230</p>
+        <p>Phone: +254 794 778 521</p><br>
+
+        <a href="http://wa.me/254794778521" class="btn">WhatsApp Me</a>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Ayman Bilal. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script>
+        AOS.init({
+            duration:1000
+        });
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
