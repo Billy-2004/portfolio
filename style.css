@@ -242,11 +242,14 @@ header{
     }
     .hero-buttons{
         display: flex;
+        flex-wrap: nowrap;
+        gap: 8px;
+        justify-content: center;
     }
     .btn{
     background:#3b82f6;
     color:white;
-    padding:10px 15px;
+    padding:10px 5px;
     text-decoration:none;
     border-radius:8px;
 }
