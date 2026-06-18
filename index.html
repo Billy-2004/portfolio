@@ -6,25 +6,33 @@
     <title>Ayman Bilal | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 <body>
 
     <header>
-        <nav>
+        <nav class="nav-bar">
             <h2 class="logo">Bilal.</h2>
 
-            <ul class="nav-links">
+                <ul class="nav-links">
                 <li><a href="#home"><i data-lucide="home"></i>Home</a></li>
                 <li><a href="#about"><i data-lucide="user"></i>About</a></li>
                 <li><a href="#skills"><i data-lucide="brain"></i>Skills</a></li>
                 <li><a href="#projects"><i data-lucide="briefcase"></i>Projects</a></li>
                 <li><a href="#contact"><i data-lucide="mail"></i>Contact</a></li>
-            </ul>
-            <button id="theme-toggle">
-                <i data-lucide="moon"></i>
-            </button>
+                </ul>
+            
+            <div class="right-icons">
+                <button id="theme-toggle">
+                    <i data-lucide="moon"></i>
+                </button>
+
+                <div class="menu-btn">
+                    <i data-lucide="menu"></i>
+                </div>
+            </div>    
         </nav>
     </header>
 
@@ -38,8 +46,20 @@
                 I build responsive websites and web applications
                 using HTML, CSS, JavaScript and Django.
             </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="cv/Ayman-Bilal-CV.pdf" download class="btn cv-btn">Download CV</a>
+            </div>
 
-            <a href="#projects" class="btn">View Projects</a>
+            <div class="hero-socials">
+                <a href="https://github.com/billy2004" target="_blank">
+                    <i class="fa-brands fa-github"></i>Github
+                </a>
+                <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>LinkedIn
+                </a>
+            </div>
+            
         </div>
             
         <div class="hero-image" data-aos="fade-left">
@@ -144,8 +164,16 @@
 
         <p>Email: bilalinganyi4@gmail.com</p>
         <p>Phone: +254 701 130 230</p>
-        <p>Phone: +254 794 778 521</p><br>
+        <p>Phone: +254 794 778 521</p>
 
+        <div class="socials">
+            <a href="https://github.com/YOUR_USERNAME" target="_blank">
+                <i class="fa-brands fa-github"></i>Github
+            </a>
+            <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>LinkedIn
+            </a>
+        </div><br>
         <a href="http://wa.me/254794778521" class="btn">WhatsApp Me</a>
 
     </section>
@@ -155,7 +183,7 @@
     </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
+    
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
         lucide.createIcons();

@@ -1,3 +1,18 @@
+const menuBtn = document.querySelector(".menu-btn");
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    const icon = menuBtn.querySelector("i");
+    
+    if(navLinks.classList.contains("active")){
+        icon.setAttribute("data-lucide","x");
+    }else{
+        icon.setAttribute("data-lucide", "menu");
+    }
+    lucide.createIcons();
+});
+
 const toggleBtn =
 document.getElementById("theme-toggle");
 
@@ -45,6 +60,5 @@ function type() {
 }
 
 type();
-
 
 console.log("Portfolio Loaded Succesfully");
