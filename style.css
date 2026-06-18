@@ -228,17 +228,18 @@ header{
 }
 .hero-socials{
     display: flex;
-    gap: 120px;
+    gap: 20px;
     margin-top: 20px;
+    justify-content: center;
 
 }
 
 @media screen and (max-width:768px) {
     .hero-socials{
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-    justify-content: center;
+        display: flex;
+        gap: 40px;
+        margin-top: 20px;
+        justify-content: center;
     }
     .hero-buttons{
         display: flex;
@@ -248,19 +249,19 @@ header{
     }
     
     .btn{
-    background:#3b82f6;
-    color:white;
-    padding:10px 5px;
-    text-decoration:none;
-    border-radius:8px;
+        background:#3b82f6;
+        color:white;
+        padding:10px 5px;
+        text-decoration:none;
+        border-radius:8px;
     }
 }
 .hero-buttons{
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 8px;
-        justify-content: center;
-    }
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+    justify-content: center;
+}
 .cv-btn{
     display: flex;
     justify-content: center;
